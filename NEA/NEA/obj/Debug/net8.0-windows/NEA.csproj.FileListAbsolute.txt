@@ -1,0 +1,16 @@
+H:\Computer Science\NEA\NEA\bin\Debug\net8.0-windows\NEA.exe
+H:\Computer Science\NEA\NEA\bin\Debug\net8.0-windows\NEA.deps.json
+H:\Computer Science\NEA\NEA\bin\Debug\net8.0-windows\NEA.runtimeconfig.json
+H:\Computer Science\NEA\NEA\bin\Debug\net8.0-windows\NEA.dll
+H:\Computer Science\NEA\NEA\bin\Debug\net8.0-windows\NEA.pdb
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.Form1.resources
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.csproj.GenerateResource.cache
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.GeneratedMSBuildEditorConfig.editorconfig
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.AssemblyInfoInputs.cache
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.AssemblyInfo.cs
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.csproj.CoreCompileInputs.cache
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.dll
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\refint\NEA.dll
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.pdb
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.genruntimeconfig.cache
+H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\ref\NEA.dll

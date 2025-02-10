@@ -36,32 +36,33 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(673, 12);
+            textBox1.Location = new Point(670, 10);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(26, 23);
+            textBox1.Size = new Size(23, 23);
             textBox1.TabIndex = 0;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(705, 12);
+            textBox3.Location = new Point(700, 10);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(26, 23);
+            textBox3.Size = new Size(23, 23);
             textBox3.TabIndex = 2;
             // 
             // button1
             // 
-            button1.Location = new Point(769, 12);
+            button1.Location = new Point(760, 10);
             button1.Name = "button1";
-            button1.Size = new Size(24, 23);
+            button1.Size = new Size(23, 23);
             button1.TabIndex = 3;
             button1.Text = "+";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(737, 13);
+            textBox2.Location = new Point(730, 10);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(26, 23);
+            textBox2.Size = new Size(23, 23);
             textBox2.TabIndex = 4;
             // 
             // Form1
