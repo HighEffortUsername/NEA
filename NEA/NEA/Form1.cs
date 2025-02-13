@@ -5,6 +5,7 @@ namespace NEA
         List<TextBox> textBoxes = new List<TextBox>();
         //Creates a list to hold the textboxes
         int nextBox = 0;
+        int vertical = -1;
         public Form1()
         {
             InitializeComponent();
@@ -26,15 +27,14 @@ namespace NEA
                 tempHorizontal = 60;
             }
             //Makes the horizontal position iterate between three columns.
-            int tempVertical = 0;
             if (nextBox % 3 == 0)
             {
-                tempVertical = nextBox;
+                vertical += 1;
             }
             TextBox tempbox = new TextBox()
             { 
             Size = new Size(23, 23),
-                Location = new Point(670 + tempHorizontal, 40 + 30 * (tempVertical)),
+                Location = new Point(670 + tempHorizontal, 40 + 30 * (vertical)),
                 BorderStyle = BorderStyle.FixedSingle,
                 BackColor = Color.White,
             };
