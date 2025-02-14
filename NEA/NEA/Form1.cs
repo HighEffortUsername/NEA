@@ -13,38 +13,43 @@ namespace NEA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int tempHorizontal = 0;
-            if (nextBox % 3 == 0)
+            for (int i = 0; i < 3; i++)
             {
-                tempHorizontal = 0;
+                int tempHorizontal = 0;
+                if (nextBox % 3 == 0)
+                {
+                    tempHorizontal = 0;
+                }
+                else if (nextBox % 3 == 1)
+                {
+                    tempHorizontal = 30;
+                }
+                else
+                {
+                    tempHorizontal = 60;
+                }
+                //Makes the horizontal position iterate between three columns.
+                TextBox tempbox = new TextBox()
+                {
+                    Size = new Size(23, 23),
+                    Location = new Point(670 + tempHorizontal, 40 + 30 * (vertical)),
+                    BorderStyle = BorderStyle.FixedSingle,
+                    BackColor = Color.White,
+                };
+                textBoxes.Add(tempbox);
+                //Creates a new texbox when the button is pressed.
+                this.Controls.Add(textBoxes[nextBox]);
+                //Adds the textbox to the list.
+                this.Invalidate();
+                //Redraws the textbox.
+                nextBox += 1;
             }
-            else if (nextBox % 3 == 1)
-            {
-                tempHorizontal = 30;
-            }
-            else
-            {
-                tempHorizontal = 60;
-            }
-            //Makes the horizontal position iterate between three columns.
-            if (nextBox % 3 == 0)
-            {
-                vertical += 1;
-            }
-            TextBox tempbox = new TextBox()
-            { 
-            Size = new Size(23, 23),
-                Location = new Point(670 + tempHorizontal, 40 + 30 * (vertical)),
-                BorderStyle = BorderStyle.FixedSingle,
-                BackColor = Color.White,
-            };
-            textBoxes.Add(tempbox);
-            //Creates a new texbox when the button is pressed.
-            this.Controls.Add(textBoxes[nextBox]);
-            //Adds the textbox to the list.
-            this.Invalidate();
-            //Redraws the textbox.
-            nextBox += 1;
+            vertical += 1;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

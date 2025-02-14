@@ -32,6 +32,7 @@
             textBox3 = new TextBox();
             button1 = new Button();
             textBox2 = new TextBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -65,11 +66,22 @@
             textBox2.Size = new Size(23, 23);
             textBox2.TabIndex = 4;
             // 
+            // button2
+            // 
+            button2.Location = new Point(596, 10);
+            button2.Name = "button2";
+            button2.Size = new Size(68, 23);
+            button2.TabIndex = 5;
+            button2.Text = "Calculate";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(textBox2);
             Controls.Add(button1);
             Controls.Add(textBox3);
@@ -86,5 +98,6 @@
         private TextBox textBox3;
         private Button button1;
         private TextBox textBox2;
+        private Button button2;
     }
 }
