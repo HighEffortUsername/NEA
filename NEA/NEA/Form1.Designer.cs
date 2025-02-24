@@ -93,11 +93,10 @@
         }
 
         #endregion
-
-        private TextBox textBox1;
-        private TextBox textBox3;
         private Button button1;
-        private TextBox textBox2;
         private Button button2;
+        public TextBox textBox1;
+        public TextBox textBox3;
+        public TextBox textBox2;
     }
 }
