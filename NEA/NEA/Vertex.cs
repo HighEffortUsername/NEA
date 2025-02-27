@@ -24,5 +24,15 @@ namespace NEA
             int output = x;
             return output;
         }
+        public int GetY(int y)
+        {
+            int output = y;
+            return output;
+        }
+        public int GetZ(int z)
+        {
+            int output = z;
+            return output;
+        }
     }
 }
