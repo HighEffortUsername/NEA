@@ -14,3 +14,20 @@ H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\refint\NEA.dll
 H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.pdb
 H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\NEA.genruntimeconfig.cache
 H:\Computer Science\NEA\NEA\obj\Debug\net8.0-windows\ref\NEA.dll
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\bin\Debug\net8.0-windows\NEA.exe
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\bin\Debug\net8.0-windows\NEA.deps.json
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\bin\Debug\net8.0-windows\NEA.runtimeconfig.json
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\bin\Debug\net8.0-windows\NEA.dll
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\bin\Debug\net8.0-windows\NEA.pdb
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.Form1.resources
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.csproj.GenerateResource.cache
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.AssemblyInfoInputs.cache
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.AssemblyInfo.cs
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.csproj.CoreCompileInputs.cache
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.sourcelink.json
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.dll
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\refint\NEA.dll
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.pdb
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\NEA.genruntimeconfig.cache
+C:\Users\carll\Source\Repos\NEA\NEA\NEA\obj\Debug\net8.0-windows\ref\NEA.dll
