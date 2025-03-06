@@ -9,29 +9,29 @@ namespace NEA
     internal class Vertex
     {
         private readonly Form1 _form1;//Passes the form into the class, letting it access the text boxes.
-        int x;
-        int y;
-        int z;
-        public Vertex(Form1 form1)
+        float x;
+        float y;
+        float z;
+        public Vertex(float newx, float newy, float newz)
         {
             _form1 = form1;
-            x = Convert.ToInt32(form1.textBox1.Text);
-            y = Convert.ToInt32(form1.textBox2.Text);
-            z = Convert.ToInt32(form1.textBox3.Text);
+            x = newx;
+            y = newy;
+            z = newz;
         }
-        public int GetX(int x)
+        public float GetX(float x)
         {
-            int output = x;
+            float output = x;
             return output;
         }
-        public int GetY(int y)
+        public float GetY(float y)
         {
-            int output = y;
+            float output = y;
             return output;
         }
-        public int GetZ(int z)
+        public float GetZ(float z)
         {
-            int output = z;
+            float output = z;
             return output;
         }
     }
